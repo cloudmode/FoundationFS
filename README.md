@@ -1,9 +1,9 @@
 # FoundationFS
-File Storage system for FoundationDB written in go
+
+FoundationFS is a File Storage system for FoundationDB written in go
+intended to mimic mongodb gridfs file storage layer.
+
 Includes an example http server interface with support for basic upload and download of any file type.
-
-
-
 
 
 ## Installation
