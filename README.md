@@ -29,7 +29,7 @@ go get github.com/FoundationDB/fdb-go/fdb
 FoundationFS uses go/codec (using the msgpack codec) for storing values in FDB
 such as the file meta data. (https://github.com/ugorji/go)
 
-TO install ghe go/codec package:
+To install the go/codec package:
 
 ```bash
 go get github.com/ugorji/go/codec
@@ -58,7 +58,7 @@ To test with curl:
 
 ```bash
 curl -i -X POST -H "Content-Type: multipart/form-data" -F "uploadfile=@test.png" http://localhost:9090/upload
-curl -o foo.png http://localhost:9090/download?id=9ccc7915307b4351a0de9219d120fc3e
+curl -o foo.png http://localhost:9090/download?id=<the id returned from previous curl POST>
 
 ```
 
